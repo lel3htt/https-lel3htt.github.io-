@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal de Letícia, estudante de Análise e Desenvolvimento de Sistemas.">
+  <title>Letícia | Meu Portfólio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <a class="logo" href="index.html">Letícia<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="menu" class="menu">
+      <a href="index.html">Início</a>
+      <a href="pages/sobre.html">Sobre mim</a>
+      <a href="pages/projetos.html">Formação e habilidades</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="destaque">
+      <div class="apresentacao">
+        <p class="etiqueta">OLÁ, SEJA BEM-VINDO(A)!</p>
+        <h1>Meu nome é <span>Letícia</span>.</h1>
+        <p class="subtitulo">Estudante de Análise e Desenvolvimento de Sistemas, dedicada a aprender, evoluir e construir meu futuro.</p>
+        <p class="frase">“Cada conquista é resultado da minha dedicação, das minhas escolhas e da coragem de nunca desistir.”</p>
+        <a class="botao" href="pages/sobre.html">Conheça minha história</a>
+      </div>
+      <div class="foto-area">
+        <img src="images/minha-foto.jpg" alt="Foto de Letícia" class="foto-perfil"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="foto-placeholder">Sua foto<br> aqui</div>
+        <p>Brasília – DF · 19 anos</p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <p class="etiqueta">UM POUCO SOBRE MIM</p>
+      <h2>Minha trajetória</h2>
+      <p class="texto-intro">Atualmente trabalho como auxiliar de almoxarifado e curso Análise e Desenvolvimento de Sistemas na UDF. Tenho interesse em tecnologia e meu objetivo profissional é ingressar na carreira militar.</p>
+      <div class="cartoes">
+        <article class="cartao"><div class="icone">🎓</div><h3>Formação</h3><p>Análise e Desenvolvimento de Sistemas – UDF. Conclusão prevista para dezembro de 2027.</p></article>
+        <article class="cartao"><div class="icone">💻</div><h3>Tecnologia</h3><p>Conhecimentos em HTML, CSS, JavaScript e linguagem C.</p></article>
+        <article class="cartao"><div class="icone">🎯</div><h3>Objetivo</h3><p>Desenvolver minhas habilidades e conquistar uma oportunidade na carreira militar.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© <span id="ano"></span> Letícia. Feito com dedicação.</p></footer>
+</body>
+</html>
