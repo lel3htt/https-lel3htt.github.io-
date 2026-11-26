@@ -1,0 +1,1 @@
+Coloque sua foto nesta pasta com o nome minha-foto.jpg. A página inicial já está preparada para exibi-la.
